@@ -7,7 +7,7 @@ export default function Button(props) {
     <button className={style.btn}>
       {text}
       &nbsp;
-      <Image src={`/images/${icon}.svg`} width={24} height={24} />
+      <Image src={`/images/${icon}.svg`} width={24} height={24} alt="" />
     </button>
   );
 }
