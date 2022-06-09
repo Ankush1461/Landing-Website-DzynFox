@@ -1,0 +1,30 @@
+.services > h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.services > h2 b{
+  font-size: 3rem;
+}
+
+.services_content {
+  padding: var(--padding-section);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.box_service {
+  color: var(--dark);
+}
+
+.box_service p {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 767px) {
+  .services_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

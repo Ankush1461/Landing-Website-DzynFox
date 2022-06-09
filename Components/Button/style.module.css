@@ -1,0 +1,23 @@
+.btn {
+  background-color: var(--primary);
+  border: var(--dark) solid 2px;
+  padding: 0.8rem 1.8rem;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  color: var(--dark);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--secondary);
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    padding: 0.5rem 1.5rem;
+  }
+}
