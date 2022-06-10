@@ -71,7 +71,7 @@
 
   .project.active {
     flex: none;
-    height: 30vh;
+    height: 50vh;
   }
   .project h2 {
     font-size: 1.2rem;
@@ -82,6 +82,6 @@
   }
   .project h2,
   .project button {
-    margin: 8rem;
+    margin: .8rem;
   }
 }
